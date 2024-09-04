@@ -1,4 +1,4 @@
-import MainHeader from "./MainHeader.js";
+import MainHeader from "./MainHeader";
 
 export default function Layout({ children }) {
   return (

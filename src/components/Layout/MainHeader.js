@@ -1,4 +1,4 @@
-import CartButton from "../Cart/CartButton.js";
+import CartButton from "../Cart/CartButton";
 import classes from "./MainHeader.module.css";
 
 export default function MainHeader() {
