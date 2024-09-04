@@ -11,11 +11,9 @@ export default function CartButton() {
   };
 
   return (
-    <button className={classes.button}>
+    <button className={classes.button} onClick={toggleCartHandler}>
       <span>My Cart</span>
-      <span className={classes.badge} onClick={toggleCartHandler}>
-        {cartQuantity}
-      </span>
+      <span className={classes.badge}>{cartQuantity}</span>
     </button>
   );
 }
